@@ -1,0 +1,28 @@
+.main-style-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0rem;
+    margin-top: 1rem !important;
+    padding: 0rem !important;
+    background-color: rgb(154, 154, 154);
+    box-sizing: border-box;
+}
+
+.main-style-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
+    margin: 0rem;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    padding: 0rem !important;
+    background-color: white;
+    box-sizing: border-box;
+}  

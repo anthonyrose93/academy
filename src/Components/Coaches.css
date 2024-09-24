@@ -1,0 +1,52 @@
+.coaches-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 90%;
+    margin-inline: auto;
+    background-color: rgb(154, 154, 154);
+    box-sizing: border-box;
+}
+
+.coaches {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: solid .05rem black;
+    margin-bottom: 2rem;
+    background-color: white;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+.coaches .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px !important;
+}
+
+.coaches img {
+    height: 20rem;
+    width: 20rem;
+    margin-top: 2rem;
+    border: solid .05rem black;
+    border-bottom: none;
+}
+
+.coaches-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 20rem;
+    border: solid .05rem black;
+    border-top: none;
+    margin-bottom: 2rem;
+}

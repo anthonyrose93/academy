@@ -1,0 +1,30 @@
+.homepage {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.homepage-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.homepage-photo {
+    margin: 0;
+    padding: 0;
+}
+
+.homepage-photo img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0 !important;
+}
