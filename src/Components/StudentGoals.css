@@ -1,0 +1,104 @@
+.student-goals-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0rem;
+    margin-top: 1rem !important;
+    padding: 0rem !important;
+    background-color: rgb(154, 154, 154);
+    box-sizing: border-box;
+}
+
+.student-goals-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
+    margin: 0rem;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    padding: 0rem !important;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.goals-headline {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-name {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 10rem;
+}
+
+.input-goal {
+    margin-left: 2rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 10rem;
+}
+
+.input-date {
+    margin-left: 2rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 10rem;
+}
+
+.add-goal-button {
+    margin-left: 2rem;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid .05rem black;
+    width: 10rem;
+}
+
+.list-of-goals {
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 1rem !important;
+  }
+  
+  .goal-item {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 1rem;
+    border: solid 1px black;
+    width: 50rem;
+    height: 10rem;
+  }
+  
+  .delete-button {
+    background-color: black; /* Optional: change the button color */
+    color: white; /* Optional: change text color */
+    border: solid .05rem black; /* Remove default border */
+    cursor: pointer; /* Change cursor on hover */
+    height: 2rem; /* Button height based on content */
+    width: 5rem; /* Set a fixed width for the button */
+    margin-right: 2rem; /* Space between the button and text */
+    margin-left: 1rem;
+  }
+  
+  .goal-info {
+    display: flex; /* Use flexbox for stacking */
+    flex-direction: column; /* Stack goal and due date vertically */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+  }
+  
+  .goal-text, .due-date-text {
+    margin: 0; 
+  }
